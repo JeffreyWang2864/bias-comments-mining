@@ -118,9 +118,6 @@ class CountWords:
         return "".join([line[i] for i in unmarked]).strip()
 
     def make_wordcloud(self, image_path):
-        if not self.is_frequency_sorted:
-            self._sort_frequency()
-        stop_words = {}
         back_coloring_path = PROJECT_ABS_PATH + image_path
         font_path = PROJECT_ABS_PATH + "/bin/msyh.ttf"
         saving_image_modify_by_shape = PROJECT_ABS_PATH + "/image/" + str(int(time.time())) + "_by_shape.png"
@@ -130,12 +127,12 @@ class CountWords:
         wc = WordCloud(
             font_path=font_path,
             background_color="white",
-            max_words=2000,
+            max_words=500,
             mask=back_coloring,
-            max_font_size=100,
+            max_font_size=300,
             random_state=42,
             width=1080,
-            height=720,
+            height=2048,
             margin=2
         )
 
@@ -147,7 +144,7 @@ class CountWords:
         plt.imshow(back_coloring, cmap=plt.get_cmap('gray'))
         plt.axis = "off"
         plt.show()
-        #wc.to_file(saving_image_modify_by_all)
+        wc.to_file(saving_image_modify_by_all)
     def _sort_frequency(self):
         self.frequency = sorted(self.frequency.items(), key=lambda x: x[1], reverse=True)
         self.is_frequency_sorted = True

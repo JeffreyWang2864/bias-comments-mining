@@ -4,6 +4,7 @@ import jieba
 from wordcloud import WordCloud, ImageColorGenerator
 from concurrent.futures import ThreadPoolExecutor as tpe
 from matplotlib import pyplot as plt
+from util import PROJECT_ABS_LOCATION
 
 
 custom_dictionary = ["韩国人", "中国人", "生是中国人", "死是中国魂", "韩国狗", "朝鲜狗", "韩国猪", "猪韩国", "吃狗", "南朝鲜", "大寒冥国", "棒粉" , "小日本"]
@@ -113,9 +114,9 @@ class CountWords:
         unmarked = [i for i in range(length) if i not in mark_list]
         return "".join([line[i] for i in unmarked]).strip()
 
-    def make_wordcloud(self):
+    def make_wordcloud(self, image_path):
         stop_words = {}
-        back_coloring_path = 1
+        back_coloring_path = PROJECT_ABS_LOCATION + image_path
 
     def save_frequency_to_sql(self):
         self.frequency = sorted(self.frequency.items(), key=lambda x: x[1], reverse=True)

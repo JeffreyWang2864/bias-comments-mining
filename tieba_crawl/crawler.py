@@ -91,7 +91,7 @@ class Crawler:
         except:
             Warning("parseSubPage Error")
 
-    def startCrawl(self):
+    def startCrawl(self, set_parse_main_page_range = None):
         def _check_if_enough_data_in_outputer():
             if self.outputer.current_count > self.outputer.buffer_size:
                 self.trigger.set()
@@ -121,10 +121,14 @@ class Crawler:
             writing_thread = Thread(target=self.outputer.export_data, args=(None, None))
             writing_thread.start()
             current_main_page_end_index = 0
+            if set_parse_main_page_range:
+                self.start_url="&pn=" + str(set_parse_main_page_range[0])
             main_page_html = self.downloadMainPage(self.start_url)
             subpage_raw_urls = self.parseMainPage(main_page_html, get_end_suffix=True)
             self.url_manager.addNewUrl(subpage_raw_urls)
-            self.page_end_suffix_number = int(self.page_end_suffix_number * 0.33)
+            if set_parse_main_page_range:
+                if set_parse_main_page_range[1] != -1:
+                    self.page_end_suffix_number = set_parse_main_page_range[1]
             executor = tpe(self.thread_pool_size)
             while True:
                 if _check_if_enough_data_in_outputer():

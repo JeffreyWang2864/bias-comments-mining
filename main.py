@@ -25,15 +25,15 @@ print(strap)
 # bilibili_thread = Thread(target=bilibili.startCrawl)
 # bilibili_thread.start()
 
-# tieba_start_page = "&pn=0"
-# tieba_start_name = "韩国"
-# url_tieba_start_name = parse.quote(tieba_start_name)
-# tieba = tieba_crawl.crawler.Crawler(url_tieba_start_name, tieba_start_page)
-# tieba_thread = Thread(target=tieba.startCrawl)
-# tieba_thread.start()
+tieba_start_page = "&pn=0"
+tieba_start_name = "韩国"
+url_tieba_start_name = parse.quote(tieba_start_name)
+tieba = tieba_crawl.crawler.Crawler(url_tieba_start_name, tieba_start_page)
+#tieba_thread = Thread(target=tieba.startCrawl)
+#tieba_thread.start()
 
 
-# tieba.startCrawl()
+tieba.startCrawl((60000, -1))
 
 # bilibili_thread.join()
 # string_for_log = "\n\nbilibili finished time: %s\n\n"%str(datetime.datetime.now())
@@ -67,3 +67,5 @@ f.write(strap)
 print(strap)
 print(string_for_log)
 print(strap)
+
+#word_count.make_wordcloud("/image/korea-wordcloud-background.png")

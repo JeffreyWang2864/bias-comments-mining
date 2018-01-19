@@ -2,7 +2,7 @@ import re
 import time
 import os
 
-PROJECT_ABS_LOCATION = os.path.dirname(os.path.abspath(__file__))
+PROJECT_ABS_PATH = os.path.dirname(os.path.abspath(__file__))
 
 def polishChineseSentences(targets):
     polished = list()

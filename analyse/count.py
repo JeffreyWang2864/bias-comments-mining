@@ -4,7 +4,9 @@ import jieba
 from wordcloud import WordCloud, ImageColorGenerator
 from concurrent.futures import ThreadPoolExecutor as tpe
 from matplotlib import pyplot as plt
-from util import PROJECT_ABS_LOCATION
+from util import PROJECT_ABS_PATH
+from scipy.misc import imread
+import time
 
 
 custom_dictionary = ["韩国人", "中国人", "生是中国人", "死是中国魂", "韩国狗", "朝鲜狗", "韩国猪", "猪韩国", "吃狗", "南朝鲜", "大寒冥国", "棒粉" , "小日本"]
@@ -32,6 +34,7 @@ class CountWords:
         self.frequency = dict()
         self.file_names = list()
         self.thread_pool_size = 8
+        self.is_frequency_sorted = False
         self.var_names = ["word", "frequency"]
         with open("/Users/Excited/localmysqlrootssh.txt", "r")as f:
             local_info = f.readlines()   #host, username, passwd, port
@@ -115,11 +118,43 @@ class CountWords:
         return "".join([line[i] for i in unmarked]).strip()
 
     def make_wordcloud(self, image_path):
+        if not self.is_frequency_sorted:
+            self._sort_frequency()
         stop_words = {}
-        back_coloring_path = PROJECT_ABS_LOCATION + image_path
+        back_coloring_path = PROJECT_ABS_PATH + image_path
+        font_path = PROJECT_ABS_PATH + "/bin/msyh.ttf"
+        saving_image_modify_by_shape = PROJECT_ABS_PATH + "/image/" + str(int(time.time())) + "_by_shape.png"
+        saving_image_modify_by_all = PROJECT_ABS_PATH + "/image/" + str(int(time.time())) + "_by_all.png"
+
+        back_coloring = imread(back_coloring_path)
+        wc = WordCloud(
+            font_path=font_path,
+            background_color="white",
+            max_words=2000,
+            mask=back_coloring,
+            max_font_size=100,
+            random_state=42,
+            width=1080,
+            height=720,
+            margin=2
+        )
+
+        wc.generate_from_frequencies(self.frequency)
+        image_colors = ImageColorGenerator(back_coloring)
+        plt.imshow(wc.recolor(color_func=image_colors))
+        plt.axis = "off"
+        plt.figure()
+        plt.imshow(back_coloring, cmap=plt.get_cmap('gray'))
+        plt.axis = "off"
+        plt.show()
+        #wc.to_file(saving_image_modify_by_all)
+    def _sort_frequency(self):
+        self.frequency = sorted(self.frequency.items(), key=lambda x: x[1], reverse=True)
+        self.is_frequency_sorted = True
 
     def save_frequency_to_sql(self):
-        self.frequency = sorted(self.frequency.items(), key=lambda x: x[1], reverse=True)
+        if not self.is_frequency_sorted:
+            self._sort_frequency()
         for pair in self.frequency:
             self.addRow(pair)
 

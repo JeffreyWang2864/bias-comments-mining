@@ -115,7 +115,7 @@ class CountWords:
 
     def make_wordcloud(self):
         stop_words = {}
-        back_coloring_path = 
+        back_coloring_path = 1
 
     def save_frequency_to_sql(self):
         self.frequency = sorted(self.frequency.items(), key=lambda x: x[1], reverse=True)

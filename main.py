@@ -13,6 +13,7 @@ f = open("./crawl_log.txt", "w")
 strap = "\n==========================================\n"
 
 CURRENT_COUNTRY = "japan"
+CURRENT_COUNTRY_CHINESE = "日本"
 
 string_for_log = "\n\nprogram started time: %s\n\n"%str(datetime.datetime.now())
 f.write(strap)
@@ -23,7 +24,7 @@ print(string_for_log)
 print(strap)
 
 def run_bilibili():
-    bilibili_start_url = "https://search.bilibili.com/all?keyword=日本"
+    bilibili_start_url = "https://search.bilibili.com/all?keyword=%s"%CURRENT_COUNTRY_CHINESE
     bilibili = bilibili_crawl.crawler.Crawler(bilibili_start_url, CURRENT_COUNTRY)
     bilibili.startCrawl()
     string_for_log = "\n\nbilibili finished time: %s\n\n" % str(datetime.datetime.now())
@@ -36,10 +37,10 @@ def run_bilibili():
 
 def run_tieba():
     tieba_start_page = "&pn=0"
-    tieba_start_name = "日本"
+    tieba_start_name = CURRENT_COUNTRY_CHINESE
     url_tieba_start_name = parse.quote(tieba_start_name)
     tieba = tieba_crawl.crawler.Crawler(url_tieba_start_name, tieba_start_page, CURRENT_COUNTRY)
-    tieba.startCrawl((10000, 20000))
+    tieba.startCrawl((0, 10000))
     string_for_log = "\n\ntieba finished time: %s\n\n"%str(datetime.datetime.now())
     f.write(strap)
     f.write(string_for_log)
@@ -50,19 +51,18 @@ def run_tieba():
 
 # bilibili_thread = Thread(target=run_bilibili)
 # bilibili_thread.start()
-tieba_thread = Thread(target=run_tieba)
-tieba_thread.start()
+# tieba_thread = Thread(target=run_tieba)
+# tieba_thread.start()
 # bilibili_thread.join()
-tieba_thread.join()
+# tieba_thread.join()
 
-# word_count = count.CountWords("demo", "racism_word_frequency_india", CURRENT_COUNTRY)
-# word_count.add_dictionary_from(count.custom_dictionary)
-# word_count.get_all_data_file_name()
-# word_count.read_from_file_and_count()
-# word_count.filter_frequency_with(count.filters)
-# word_count.india_treatment()
-# word_count.make_wordcloud("/image/%s-wordcloud-background.png"%CURRENT_COUNTRY)
-# word_count.save_frequency_to_sql()
+word_count = count.CountWords("demo", "racism_word_frequency_%s"%CURRENT_COUNTRY, CURRENT_COUNTRY)
+word_count.add_dictionary_from(count.custom_dictionary)
+word_count.get_all_data_file_name()
+word_count.read_from_file_and_count()
+word_count.filter_frequency_with(count.filters)
+word_count.make_wordcloud("/image/%s-wordcloud-background.png"%CURRENT_COUNTRY)
+word_count.save_frequency_to_sql()
 
 string_for_log = "\n\nprogram finished time: %s\n\n"%str(datetime.datetime.now())
 f.write(strap)

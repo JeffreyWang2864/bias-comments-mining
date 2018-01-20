@@ -8,7 +8,7 @@ class Outputer:
         self.data = list()
         self.current_count = int()
         self.total_count = int()
-        self.buffer_size = 10000
+        self.buffer_size = 3000
         self.buffer_trigger = e
         self.end_writing = False
 

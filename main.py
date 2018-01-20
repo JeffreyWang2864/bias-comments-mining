@@ -29,11 +29,11 @@ print(strap)
 # tieba_start_name = "韩国"
 # url_tieba_start_name = parse.quote(tieba_start_name)
 # tieba = tieba_crawl.crawler.Crawler(url_tieba_start_name, tieba_start_page)
-# #tieba_thread = Thread(target=tieba.startCrawl)
-# #tieba_thread.start()
-#
-#
-# tieba.startCrawl((60000, -1))
+#tieba_thread = Thread(target=tieba.startCrawl)
+#tieba_thread.start()
+
+
+# tieba.startCrawl((85000, 100000))
 
 # bilibili_thread.join()
 # string_for_log = "\n\nbilibili finished time: %s\n\n"%str(datetime.datetime.now())
@@ -58,7 +58,7 @@ word_count.add_dictionary_from(count.custom_dictionary)
 word_count.get_all_data_file_name()
 word_count.read_from_file_and_count()
 word_count.filter_frequency_with(count.filters)
-#word_count.save_frequency_to_sql()
+word_count.save_frequency_to_sql()
 
 string_for_log = "\n\nprogram finished time: %s\n\n"%str(datetime.datetime.now())
 f.write(strap)

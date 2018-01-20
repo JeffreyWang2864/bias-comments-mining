@@ -9,7 +9,7 @@ from scipy.misc import imread
 import time
 
 
-custom_dictionary = ["韩国人", "中国人", "生是中国人", "死妈", "三哥", "阿三", "恒河水", "印度人", "狗逼", "找骂", "死是中国魂", "韩国狗", "狗韩国", "天团", "朝鲜狗", "韩国猪", "猪韩国", "吃狗", "南朝鲜", "大寒冥国", "棒粉" , "小日本", "日本鬼子", "鬼子"]
+custom_dictionary = ["韩国人", "中国人", "生是中国人", "死妈", "三哥", "开挂", "阿三", "恒河水", "印度人", "狗逼", "找骂", "死是中国魂", "韩国狗", "狗韩国", "天团", "朝鲜狗", "韩国猪", "猪韩国", "吃狗", "南朝鲜", "大寒冥国", "棒粉" , "小日本", "日本鬼子", "鬼子"]
 filters = set([
     "是不是", "表白", "我", "都", "这个", "这样", "那个", "这么", "还是", "还", "过", "跟", "谁", "说", "觉得", "要", "被", "自己",
     "能", "给", "笑", "知道", "着", "真的", "看", "的", "现在", "为什么", "一个", "没", "比", "来", "有", "是", "把", "打",
@@ -150,7 +150,7 @@ class CountWords:
         plt.figure()
         plt.imshow(back_coloring, cmap=plt.get_cmap('gray'))
         plt.axis = "off"
-        plt.show()
+        #plt.show()
         wc.to_file(saving_image_modify_by_all)
     def _sort_frequency(self):
         self.frequency = sorted(self.frequency.items(), key=lambda x: x[1], reverse=True)

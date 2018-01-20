@@ -2,114 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d49333c9-5d2e-4462-9f1e-b8ac939237e4" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/1516403351_by_all.png" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/1516341270.txt" afterPath="$PROJECT_DIR$/data/korea/1516341270.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/1516341857.txt" afterPath="$PROJECT_DIR$/data/korea/1516341857.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/1516341873.txt" afterPath="$PROJECT_DIR$/data/korea/1516341873.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/1516341879.txt" afterPath="$PROJECT_DIR$/data/korea/1516341879.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/1516341892.txt" afterPath="$PROJECT_DIR$/data/korea/1516341892.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/1516341899.txt" afterPath="$PROJECT_DIR$/data/korea/1516341899.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/1516341926.txt" afterPath="$PROJECT_DIR$/data/korea/1516341926.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/1516341931.txt" afterPath="$PROJECT_DIR$/data/korea/1516341931.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/1516341950.txt" afterPath="$PROJECT_DIR$/data/korea/1516341950.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/1516341974.txt" afterPath="$PROJECT_DIR$/data/korea/1516341974.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/1516342004.txt" afterPath="$PROJECT_DIR$/data/korea/1516342004.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/1516342024.txt" afterPath="$PROJECT_DIR$/data/korea/1516342024.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/1516342043.txt" afterPath="$PROJECT_DIR$/data/korea/1516342043.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/1516342061.txt" afterPath="$PROJECT_DIR$/data/korea/1516342061.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/1516342084.txt" afterPath="$PROJECT_DIR$/data/korea/1516342084.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/1516342102.txt" afterPath="$PROJECT_DIR$/data/korea/1516342102.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/1516342124.txt" afterPath="$PROJECT_DIR$/data/korea/1516342124.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/1516342154.txt" afterPath="$PROJECT_DIR$/data/korea/1516342154.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/1516342164.txt" afterPath="$PROJECT_DIR$/data/korea/1516342164.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/1516342180.txt" afterPath="$PROJECT_DIR$/data/korea/1516342180.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/1516342201.txt" afterPath="$PROJECT_DIR$/data/korea/1516342201.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/1516342220.txt" afterPath="$PROJECT_DIR$/data/korea/1516342220.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/1516342238.txt" afterPath="$PROJECT_DIR$/data/korea/1516342238.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/1516342256.txt" afterPath="$PROJECT_DIR$/data/korea/1516342256.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/1516342284.txt" afterPath="$PROJECT_DIR$/data/korea/1516342284.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/1516342304.txt" afterPath="$PROJECT_DIR$/data/korea/1516342304.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/1516342322.txt" afterPath="$PROJECT_DIR$/data/korea/1516342322.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/1516342327.txt" afterPath="$PROJECT_DIR$/data/korea/1516342327.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/1516342347.txt" afterPath="$PROJECT_DIR$/data/korea/1516342347.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/1516342366.txt" afterPath="$PROJECT_DIR$/data/korea/1516342366.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/1516342385.txt" afterPath="$PROJECT_DIR$/data/korea/1516342385.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/1516342407.txt" afterPath="$PROJECT_DIR$/data/korea/1516342407.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/1516342433.txt" afterPath="$PROJECT_DIR$/data/korea/1516342433.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/1516342454.txt" afterPath="$PROJECT_DIR$/data/korea/1516342454.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/1516342472.txt" afterPath="$PROJECT_DIR$/data/korea/1516342472.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/1516342494.txt" afterPath="$PROJECT_DIR$/data/korea/1516342494.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/1516342513.txt" afterPath="$PROJECT_DIR$/data/korea/1516342513.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/1516342523.txt" afterPath="$PROJECT_DIR$/data/korea/1516342523.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/1516342555.txt" afterPath="$PROJECT_DIR$/data/korea/1516342555.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/1516342578.txt" afterPath="$PROJECT_DIR$/data/korea/1516342578.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/1516342597.txt" afterPath="$PROJECT_DIR$/data/korea/1516342597.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/1516342620.txt" afterPath="$PROJECT_DIR$/data/korea/1516342620.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/1516342641.txt" afterPath="$PROJECT_DIR$/data/korea/1516342641.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/1516342678.txt" afterPath="$PROJECT_DIR$/data/korea/1516342678.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/1516342689.txt" afterPath="$PROJECT_DIR$/data/korea/1516342689.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/1516342705.txt" afterPath="$PROJECT_DIR$/data/korea/1516342705.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/1516342725.txt" afterPath="$PROJECT_DIR$/data/korea/1516342725.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/1516342746.txt" afterPath="$PROJECT_DIR$/data/korea/1516342746.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/1516342774.txt" afterPath="$PROJECT_DIR$/data/korea/1516342774.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/1516342794.txt" afterPath="$PROJECT_DIR$/data/korea/1516342794.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/1516342806.txt" afterPath="$PROJECT_DIR$/data/korea/1516342806.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/1516342819.txt" afterPath="$PROJECT_DIR$/data/korea/1516342819.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/1516374268.txt" afterPath="$PROJECT_DIR$/data/korea/1516374268.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/1516374761.txt" afterPath="$PROJECT_DIR$/data/korea/1516374761.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/1516375743.txt" afterPath="$PROJECT_DIR$/data/korea/1516375743.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/1516376060.txt" afterPath="$PROJECT_DIR$/data/korea/1516376060.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/1516376817.txt" afterPath="$PROJECT_DIR$/data/korea/1516376817.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/1516377900.txt" afterPath="$PROJECT_DIR$/data/korea/1516377900.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/1516394620.txt" afterPath="$PROJECT_DIR$/data/korea/1516394620.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/1516395204.txt" afterPath="$PROJECT_DIR$/data/korea/1516395204.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/1516395665.txt" afterPath="$PROJECT_DIR$/data/korea/1516395665.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/1516396066.txt" afterPath="$PROJECT_DIR$/data/korea/1516396066.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/1516397013.txt" afterPath="$PROJECT_DIR$/data/korea/1516397013.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/1516398189.txt" afterPath="$PROJECT_DIR$/data/korea/1516398189.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/1516399563.txt" afterPath="$PROJECT_DIR$/data/korea/1516399563.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/1516401445.txt" afterPath="$PROJECT_DIR$/data/korea/1516401445.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/1516403082.txt" afterPath="$PROJECT_DIR$/data/korea/1516403082.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/1516404912.txt" afterPath="$PROJECT_DIR$/data/korea/1516404912.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/1516407546.txt" afterPath="$PROJECT_DIR$/data/korea/1516407546.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/1516407795.txt" afterPath="$PROJECT_DIR$/data/korea/1516407795.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/1516407922.txt" afterPath="$PROJECT_DIR$/data/korea/1516407922.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/1516408086.txt" afterPath="$PROJECT_DIR$/data/korea/1516408086.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/1516408295.txt" afterPath="$PROJECT_DIR$/data/korea/1516408295.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/1516408470.txt" afterPath="$PROJECT_DIR$/data/korea/1516408470.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/1516408809.txt" afterPath="$PROJECT_DIR$/data/korea/1516408809.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/1516408993.txt" afterPath="$PROJECT_DIR$/data/korea/1516408993.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/1516409152.txt" afterPath="$PROJECT_DIR$/data/korea/1516409152.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/1516409333.txt" afterPath="$PROJECT_DIR$/data/korea/1516409333.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/1516409452.txt" afterPath="$PROJECT_DIR$/data/korea/1516409452.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/1516409603.txt" afterPath="$PROJECT_DIR$/data/korea/1516409603.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/1516409891.txt" afterPath="$PROJECT_DIR$/data/korea/1516409891.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/1516410182.txt" afterPath="$PROJECT_DIR$/data/korea/1516410182.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/1516410479.txt" afterPath="$PROJECT_DIR$/data/korea/1516410479.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/1516410845.txt" afterPath="$PROJECT_DIR$/data/korea/1516410845.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/1516411139.txt" afterPath="$PROJECT_DIR$/data/korea/1516411139.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/1516411489.txt" afterPath="$PROJECT_DIR$/data/korea/1516411489.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/1516411902.txt" afterPath="$PROJECT_DIR$/data/korea/1516411902.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/1516412314.txt" afterPath="$PROJECT_DIR$/data/korea/1516412314.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/1516412711.txt" afterPath="$PROJECT_DIR$/data/korea/1516412711.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/1516413230.txt" afterPath="$PROJECT_DIR$/data/korea/1516413230.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/1516413783.txt" afterPath="$PROJECT_DIR$/data/korea/1516413783.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/1516414276.txt" afterPath="$PROJECT_DIR$/data/korea/1516414276.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/1516415082.txt" afterPath="$PROJECT_DIR$/data/korea/1516415082.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/1516415531.txt" afterPath="$PROJECT_DIR$/data/korea/1516415531.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/1516416009.txt" afterPath="$PROJECT_DIR$/data/korea/1516416009.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/1516416402.txt" afterPath="$PROJECT_DIR$/data/korea/1516416402.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/1516416949.txt" afterPath="$PROJECT_DIR$/data/korea/1516416949.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/1516417351.txt" afterPath="$PROJECT_DIR$/data/korea/1516417351.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/1516418001.txt" afterPath="$PROJECT_DIR$/data/korea/1516418001.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/1516418278.txt" afterPath="$PROJECT_DIR$/data/korea/1516418278.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/1516418808.txt" afterPath="$PROJECT_DIR$/data/korea/1516418808.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/india/1516425567.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/india/1516425568.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/india/1516425573.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/india/1516425584.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/india/1516425591.txt" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/analyse/count.py" afterPath="$PROJECT_DIR$/analyse/count.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/analyse/outputer.py" afterPath="$PROJECT_DIR$/analyse/outputer.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bilibili_crawl/crawler.py" afterPath="$PROJECT_DIR$/bilibili_crawl/crawler.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.py" afterPath="$PROJECT_DIR$/main.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tieba_crawl/crawler.py" afterPath="$PROJECT_DIR$/tieba_crawl/crawler.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -120,7 +18,18 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file leaf-file-name="count.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/analyse/count.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -133,15 +42,15 @@
         <option value="$PROJECT_DIR$/analyse/outputer.py" />
         <option value="$PROJECT_DIR$/bilibili_crawl/crawler.py" />
         <option value="$PROJECT_DIR$/tieba_crawl/crawler.py" />
-        <option value="$PROJECT_DIR$/analyse/count.py" />
         <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/analyse/count.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1920" />
-    <option name="height" value="1057" />
+    <option name="width" value="1440" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -162,7 +71,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -247,6 +155,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -374,7 +283,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="1057" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -384,7 +294,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1629393" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16523606" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39831403" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -434,9 +344,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -444,9 +351,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="29" column="36" lean-forward="true" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -454,9 +358,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="735">
           <caret line="36" column="39" lean-forward="true" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -464,9 +365,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="840">
           <caret line="46" column="33" lean-forward="true" selection-start-line="46" selection-start-column="33" selection-end-line="46" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -494,9 +392,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1092">
           <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="47" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -504,9 +399,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="25" column="98" lean-forward="false" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="98" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -514,9 +406,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -544,9 +433,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="14" column="80" lean-forward="true" selection-start-line="14" selection-start-column="80" selection-end-line="14" selection-end-column="80" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -554,9 +440,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="25" column="98" lean-forward="false" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="98" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -564,9 +447,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -634,9 +514,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="753">
           <caret line="73" column="9" lean-forward="true" selection-start-line="73" selection-start-column="9" selection-end-line="73" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -644,9 +521,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1817">
           <caret line="29" column="36" lean-forward="false" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -654,9 +528,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="756">
           <caret line="36" column="39" lean-forward="false" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -664,19 +535,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="172">
           <caret line="46" column="33" lean-forward="false" selection-start-line="46" selection-start-column="33" selection-end-line="46" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/analyse/count.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="130" column="54" lean-forward="true" selection-start-line="130" selection-start-column="54" selection-end-line="130" selection-end-column="54" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -686,6 +544,16 @@
           <caret line="16" column="34" lean-forward="true" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analyse/count.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -9,7 +9,7 @@ from scipy.misc import imread
 import time
 
 
-custom_dictionary = ["韩国人", "中国人", "生是中国人", "死是中国魂", "韩国狗", "天团", "朝鲜狗", "韩国猪", "猪韩国", "吃狗", "南朝鲜", "大寒冥国", "棒粉" , "小日本", "日本鬼子", "鬼子"]
+custom_dictionary = ["韩国人", "中国人", "生是中国人", "死妈", "三哥", "阿三", "恒河水", "印度人", "狗逼", "找骂", "死是中国魂", "韩国狗", "狗韩国", "天团", "朝鲜狗", "韩国猪", "猪韩国", "吃狗", "南朝鲜", "大寒冥国", "棒粉" , "小日本", "日本鬼子", "鬼子"]
 filters = set([
     "是不是", "表白", "我", "都", "这个", "这样", "那个", "这么", "还是", "还", "过", "跟", "谁", "说", "觉得", "要", "被", "自己",
     "能", "给", "笑", "知道", "着", "真的", "看", "的", "现在", "为什么", "一个", "没", "比", "来", "有", "是", "把", "打",
@@ -62,15 +62,15 @@ class CountWords:
 
     def filter_frequency_with(self, target_filter):
         for item in target_filter:
-            if self.frequency[item]:
+            if self.frequency.get(item, -1) != -1:
                 self.frequency.pop(item)
 
     def add_dictionary_from(self, target_dict):
         for item in target_dict:
-            jieba.add_word(item)
+            jieba.add_word(item, 3)
 
     def get_all_data_file_name(self):
-        abs_path = "/Users/Excited/PycharmProjects/bias_comments/data/"
+        abs_path = "/Users/Excited/PycharmProjects/bias-comments-mining/data/"
         for parent_file_name in os.walk(abs_path):
             for child_file_name in parent_file_name[-1]:
                 if child_file_name[-4:] == ".txt":
@@ -134,9 +134,9 @@ class CountWords:
         wc = WordCloud(
             font_path=font_path,
             background_color="white",
-            max_words=500,
+            max_words=400,
             mask=back_coloring,
-            max_font_size=300,
+            max_font_size=250,
             random_state=42,
             width=1080,
             height=2048,

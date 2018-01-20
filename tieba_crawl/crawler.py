@@ -11,7 +11,7 @@ from urllib import request
 
 class Crawler:
 
-    def __init__(self, url_tieba_start_name, tieba_start_page):
+    def __init__(self, url_tieba_start_name, tieba_start_page, country):
         assert isinstance(tieba_start_page, str)
         self.start_url = tieba_start_page
         self.thread_pool_size = 16
@@ -20,6 +20,7 @@ class Crawler:
         self.page_end_suffix_number = -1
         self.trigger = Event()
         self.outputer = outputer.Outputer(self.trigger)
+        self.outputer.current_country = country
         self.url_manager = UrlManager()
 
     def _get_sub_page_full_url(self, page, start = 30):
@@ -141,7 +142,7 @@ class Crawler:
                     subpage_raw_urls = self.parseMainPage(main_page_html)
                     self.url_manager.addNewUrl(subpage_raw_urls)
                     util.print_progress("tieba", current_main_page_end_index/self.page_end_suffix_number)
-                    util.rest(2)
+                    util.rest(10)
                 else:
                     break
         except:

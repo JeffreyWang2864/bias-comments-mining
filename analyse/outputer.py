@@ -8,7 +8,8 @@ class Outputer:
         self.data = list()
         self.current_count = int()
         self.total_count = int()
-        self.buffer_size = 3000
+        self.current_country = None
+        self.buffer_size = 5000
         self.buffer_trigger = e
         self.end_writing = False
 
@@ -19,7 +20,7 @@ class Outputer:
     def write_data(self):
         print("\n\n*********\twritten data: %d\t*********\n"%self.total_count)
         path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-        path += ("/data/" + str(int(time.time())) + ".txt")
+        path += ("/data/" + "%s/"%self.current_country + str(int(time.time())) + ".txt")
         with open(path, 'w') as f:
             for item in self.data:
                 f.write(item + "\n")

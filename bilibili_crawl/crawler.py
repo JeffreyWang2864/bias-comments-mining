@@ -41,7 +41,7 @@ class UrlManager:
 
 class Crawler:
 
-    def __init__(self, start_url):
+    def __init__(self, start_url, country):
         assert isinstance(start_url, str)
         self.start_url = start_url
         self.thread_pool_size = 4
@@ -49,6 +49,7 @@ class Crawler:
         self.home_page_number = 50
         self.trigger = Event()
         self.outputer = outputer.Outputer(self.trigger)
+        self.outputer.current_country = country
         self.url_manager = UrlManager()
 
     def downloadComments(self, url):

@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d49333c9-5d2e-4462-9f1e-b8ac939237e4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/destribute_main.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/analyse/count.py" afterPath="$PROJECT_DIR$/analyse/count.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/analyse/create_database.sql" afterPath="$PROJECT_DIR$/analyse/create_database.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.py" afterPath="$PROJECT_DIR$/main.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/destribute_main.py" afterPath="$PROJECT_DIR$/distribute_main.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -681,7 +677,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/destribute_main.py">
+    <entry file="file://$PROJECT_DIR$/distribute_main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-685">
           <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />

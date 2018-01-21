@@ -208,6 +208,10 @@ class CountWords:
             else:
                 self.frequency[key] = value
 
+    def black_treatment(self):
+        for key, value in self.frequency.items():
+            self.frequency[key] += value * 1.3
+
     def getOne(self, with_label = False):
         try:
             res = self.cursor.fetchone()

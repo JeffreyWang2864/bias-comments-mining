@@ -9,7 +9,7 @@ from scipy.misc import imread
 import time
 
 
-custom_dictionary = ["韩国人", "中国人", "第三世界", "生是中国人","厉害了我的哥", "死妈", "三哥", "开挂", "手抓饭", "阿三", "印度狗", "妈逼", "不干净","不卫生",
+custom_dictionary = ["韩国人", "中国人", "第三世界", "死宅", "生是中国人","厉害了我的哥", "死妈", "三哥", "开挂", "手抓饭", "阿三", "印度狗", "妈逼", "不干净","不卫生",
                      "啊三", "印度阿三", "恒河水", "好人一生平安", "印度人", "狗逼", "找骂", "死是中国魂", "韩国狗", "狗韩国",
                      "天团", "朝鲜狗", "韩国猪", "猪韩国", "吃狗", "南朝鲜", "大寒冥国", "棒粉" , "小日本", "日本狗", "日本鬼子", "本子", "鬼子", "黑鬼", "黑哥哥",
                      "种族天赋", "带感", "美黑", "白屁股", "黑屁股", "头脑简单", "四肢发达", "黑人天赋", "哈韩", "哈日"]
@@ -183,21 +183,30 @@ class CountWords:
         self.cursor.execute(command)
 
     def india_treatment(self):
-        modify_word = {"阿三": 10000, "种姓": 5000, "厕所":3000, "强奸": 4391, "素质": 3223}
+        modify_word = {"阿三": 10000, "种姓": 5000, "厕所":3000, "强奸": 4391, "素质": 3223, "印度":-10000, "中国":-10000}
         for key, value in modify_word.items():
             if self.frequency.get(key, -1) != -1:
                 self.frequency[key] += value
             else:
                 self.frequency[key] = value
 
+    def korea_treatment(self):
+        modify_word = {"明星": 5000, "韩剧": 4000, "哥哥": 2000, "韩国": -40000, "中国": -20000}
+        for key, value in modify_word.items():
+            if self.frequency.get(key, -1) != -1:
+                self.frequency[key] += value
+            else:
+                self.frequency[key] = value
+        if self.frequency.get("黑人", -1) != -1:
+            self.frequency.pop("黑人")
+
     def japan_treatment(self):
-        def india_treatment(self):
-            modify_word = {"日本人": -20141, "鬼子": 12426, "本子": 4864, "动漫": 5000, "留学": 3000, "小姐姐": 3000}
-            for key, value in modify_word.items():
-                if self.frequency.get(key, -1) != -1:
-                    self.frequency[key] += value
-                else:
-                    self.frequency[key] = value
+        modify_word = {"日本": -20141, "日本人": 19982, "日语":5000, "鬼子": 9426, "本子": 3864, "动漫": 5000, "留学": 3000, "小姐姐": 3000, "中国":-10000, "宅": 3236}
+        for key, value in modify_word.items():
+            if self.frequency.get(key, -1) != -1:
+                self.frequency[key] += value
+            else:
+                self.frequency[key] = value
 
     def getOne(self, with_label = False):
         try:

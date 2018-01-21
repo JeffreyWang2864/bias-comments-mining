@@ -1,4 +1,4 @@
-CREATE TABLE `racism_word_frequency`(
+CREATE TABLE `racism_word_frequency_korea`(
   `id` INT NOT NULL AUTO_INCREMENT,
   `word` VARCHAR(20) NOT NULL,
   `frequency` INT NOT NULL DEFAULT 0,

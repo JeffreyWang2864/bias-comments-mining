@@ -12,7 +12,7 @@ os.chdir(desktop_path)
 f = open("./crawl_log.txt", "w")
 strap = "\n==========================================\n"
 
-CURRENT_COUNTRY = "japan"
+CURRENT_COUNTRY = "korea"
 CURRENT_COUNTRY_CHINESE = "日本"
 
 string_for_log = "\n\nprogram started time: %s\n\n"%str(datetime.datetime.now())

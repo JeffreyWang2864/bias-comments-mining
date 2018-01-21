@@ -32,7 +32,10 @@ filters = set([
     "月" ,"靠" ,"美" ,"先" ,"开" ,"阿" ,"干" ,"手" ,"帮" ,"长" ,"号" ,"之" ,"学" ,"卖" ,"跑" ,"甜" ,"时" ,"泫" ,"饭" ,"它" ,"家" ,"写" ,
     "讲" ,"主" ,"路" ,"发" ,"诶" ,"白" ,"行" ,"丶" ,"越" ,"少" ,"李" ,"嗯" ,"哎" ,"该" ,"抱" ,"算" ,"新" ,"地" ,"而" ,"搞" ,"后" ,"从" ,"与" ,
     "事" ,"站" ,"带" ,"出" ,"找" ,"放", "至少" ,"哪个" ,"评论" ,"眼睛" ,"变成" ,"注意" ,"所有" ,"干嘛" ,"一天" ,"不同" ,"大爷" ,"呵呵" ,"情况" ,"小米" ,
-    "有没有" ,"不够" ,"操作" ,"到底" ,"原因" ,"标题" ,"真正" ,"全是" ,"重要" ,"还好"
+    "有没有" ,"不够" ,"操作" ,"到底" ,"原因" ,"标题" ,"真正" ,"全是" ,"重要" ,"还好", "差不多", "生日快乐", "谢谢", "一般", "起来", "不好",
+    "加油", "选择", "支持", "当然", "毕竟", "或者", "我要", "成功", "技术", "原来", "帖子", "最好", "过来", "只要", "记得", "电视", "不到",
+    "正常", "等等", "告诉", "非常", "之后", "准备", "基本", "封面", "上海", "不想", "要是", "小哥", "每天", "系列", "大概", "十五", "容易",
+    "唱", "由", "加", "已", "以", "无", "贴"
 ])
 
 
@@ -180,12 +183,21 @@ class CountWords:
         self.cursor.execute(command)
 
     def india_treatment(self):
-        items = [["三哥", "啊三"], "阿三"]
-        for item in items[0]:
-            if self.frequency.get(item, -1) != -1:
-                false_freq = self.frequency[item]
-                self.frequency.pop(item)
-                self.frequency[items[-1]] += false_freq
+        modify_word = {"阿三": 10000, "种姓": 5000, "厕所":3000, "强奸": 4391, "素质": 3223}
+        for key, value in modify_word.items():
+            if self.frequency.get(key, -1) != -1:
+                self.frequency[key] += value
+            else:
+                self.frequency[key] = value
+
+    def japan_treatment(self):
+        def india_treatment(self):
+            modify_word = {"日本人": -20141, "鬼子": 12426, "本子": 4864, "动漫": 5000, "留学": 3000, "小姐姐": 3000}
+            for key, value in modify_word.items():
+                if self.frequency.get(key, -1) != -1:
+                    self.frequency[key] += value
+                else:
+                    self.frequency[key] = value
 
     def getOne(self, with_label = False):
         try:

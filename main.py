@@ -12,8 +12,8 @@ os.chdir(desktop_path)
 f = open("./crawl_log.txt", "w")
 strap = "\n==========================================\n"
 
-CURRENT_COUNTRY = "japan"
-CURRENT_COUNTRY_CHINESE = "日本"
+CURRENT_COUNTRY = "korea"
+CURRENT_COUNTRY_CHINESE = "韩国"
 
 string_for_log = "\n\nprogram started time: %s\n\n"%str(datetime.datetime.now())
 f.write(strap)
@@ -68,17 +68,15 @@ def enable_treatment():
         word_count.black_treatment()
 
 
-current_country_list = ["japan", "korea", "india", "black"]
-for item in current_country_list:
-    CURRENT_COUNTRY = item
-    word_count = count.CountWords("demo", "racism_word_frequency_%s"%CURRENT_COUNTRY, CURRENT_COUNTRY)
-    word_count.add_dictionary_from(count.custom_dictionary)
-    word_count.get_all_data_file_name()
-    word_count.read_from_file_and_count()
-    word_count.filter_frequency_with(count.filters)
-    enable_treatment()
-    word_count.make_wordcloud("/image/%s-wordcloud-background.png"%CURRENT_COUNTRY)
-    word_count.save_frequency_to_sql()
+
+word_count = count.CountWords("demo", "racism_word_frequency_%s"%CURRENT_COUNTRY, CURRENT_COUNTRY)
+word_count.add_dictionary_from(count.custom_dictionary)
+word_count.get_all_data_file_name()
+word_count.read_from_file_and_count()
+word_count.filter_frequency_with(count.filters)
+enable_treatment()
+word_count.make_wordcloud("/image/%s-wordcloud-background.png"%CURRENT_COUNTRY)
+#word_count.save_frequency_to_sql()
 
 string_for_log = "\n\nprogram finished time: %s\n\n"%str(datetime.datetime.now())
 f.write(strap)

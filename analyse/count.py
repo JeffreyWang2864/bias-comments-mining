@@ -139,7 +139,7 @@ class CountWords:
         wc = WordCloud(
             font_path=font_path,
             background_color="white",
-            max_words=400,
+            max_words=300,
             mask=back_coloring,
             max_font_size=250,
             random_state=42,
@@ -155,8 +155,8 @@ class CountWords:
         plt.figure()
         plt.imshow(back_coloring, cmap=plt.get_cmap('gray'))
         plt.axis = "off"
-        #plt.show()
-        wc.to_file(saving_image_modify_by_all)
+        plt.show()
+        #wc.to_file(saving_image_modify_by_all)
     def _sort_frequency(self):
         self.frequency = sorted(self.frequency.items(), key=lambda x: x[1], reverse=True)
         self.is_frequency_sorted = True
